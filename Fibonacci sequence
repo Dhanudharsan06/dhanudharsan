@@ -1,0 +1,25 @@
+import java.util.*;
+import java.lang.*;
+public class java1
+{
+    
+    public static void main(String[]args)
+    {
+       Scanner q=new Scanner(System.in);
+       System.out.print("Enter the no of fin number needed : ");
+       int x= q.nextInt();
+       int i;
+       int a=0;
+       int b=1;
+       int c;
+       System.out.print(a+","+b);
+       for(i=2;i<x;i++){
+        c=a+b;
+        a=b;
+        b=c;
+        System.out.print(c+",");
+       }
+
+        
+    }
+}
