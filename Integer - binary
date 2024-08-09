@@ -1,0 +1,14 @@
+import java.util.*;
+import java.lang.*;
+public class java1
+{
+    
+    public static void main(String[]args){
+        Scanner x=new Scanner (System.in);
+        int a=x.nextInt();
+        String b=Integer.toString(a,2);
+        System.out.println(b);
+        int c =Integer.valueOf(b,2);
+        System.out.println(c);
+    }
+}
