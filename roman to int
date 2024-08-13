@@ -52,7 +52,7 @@ class Solution
            a[value]+=1;
             
         }
-            for(i=6;i<len;i--)
+            for(i=0;i<len;i++)
         {
                 if(i==0){
                     y=1;
@@ -75,9 +75,7 @@ class Solution
                 else if (i==6){
                     y=1000;
                 }
-                
-                    ans+=a[i]*y;
-               
+                ans+=a[i]*y;
                 
          }
            
