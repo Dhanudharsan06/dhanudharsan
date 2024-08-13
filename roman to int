@@ -52,7 +52,7 @@ class Solution
            a[value]+=1;
             
         }
-            for(i=0;i<len;i++)
+            for(i=6;i>=0;i--)
         {
                 if(i==0){
                     y=1;
