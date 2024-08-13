@@ -27,25 +27,25 @@ class Solution
           switch (b) 
           {
             case 'I':
-                value = I;
+                value = 0;
                 break;
             case 'V':
-                value = V;
+                value = 1;
                 break;
             case 'X':
-                value = X;
+                value = 2;
                 break;
             case 'L':
-                value = L;
+                value = 3;
                 break;
             case 'C':
-                value = C;
+                value = 4;
                 break;
             case 'D':
-                value = D;
+                value = 5;
                 break;
             case 'M':
-                value = M;
+                value = 6;
                 break;
              
           }
